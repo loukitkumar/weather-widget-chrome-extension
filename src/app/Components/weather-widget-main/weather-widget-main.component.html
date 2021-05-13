@@ -1,0 +1,11 @@
+
+  <div class="wrapper">
+    <input #city placeholder="{{WeatherData.name}}"/>
+    <button class="big-button" (click)=changedata(city.value)>click</button>
+    <div class="weatherWidgetRow" style="font-size: 32px;margin-top: 5px;">{{WeatherData.temp_celcius}}°</div>
+    <div class="weatherWidgetRow" style="font-size: 12px;">{{WeatherData.temp_min}}° / {{WeatherData.temp_max}}°</div>
+    <div class="weatherWidgetRow" style="font-size: 12px;">Feels Like: {{WeatherData.temp_feels_like}}°</div>
+    <div class="weatherWidgetRow" style="font-size: 25px;margin-top: 10px;">{{WeatherData.name}}   <span style="font-size: 12px;">{{WeatherData.sys.country}}</span> </div>
+
+    <div class="weatherWidgetRow" style="font-size: 12px;">Humidity: {{WeatherData.main.humidity}}%</div>
+  </div>

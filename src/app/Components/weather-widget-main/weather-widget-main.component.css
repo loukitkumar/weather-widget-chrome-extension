@@ -1,0 +1,49 @@
+
+body{
+  font-family: 'Open Sans', sans-serif;
+      background-color: #eee;
+
+}
+
+.wrapper
+{
+  font-family: 'Open Sans', sans-serif;
+      background-color: #fff;
+
+  position: relative;
+ display: inline-block;
+ box-sizing: content-box;
+ width: 228px;
+ height: 228px;
+ padding: 36px;
+ border-radius: 6px;
+
+ box-shadow: 0 0 15px #ddd;
+}
+.weatherWidgetRow
+{
+
+}
+input
+{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+input:focus{
+  outline: none;
+}
+
+button {
+
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 0.7rem;
+
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: inherit;
+}
